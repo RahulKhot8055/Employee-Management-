@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1076997705884",
+    "project_id": "smart-employee-managemen-76fae",
+    "storage_bucket": "smart-employee-managemen-76fae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076997705884:android:ea7d68a29f1704fd8f1d59",
+        "android_client_info": {
+          "package_name": "com.aditya.employeemanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2MG9tRxb1D7uhK8w9ZFae5ItJDPwFeNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

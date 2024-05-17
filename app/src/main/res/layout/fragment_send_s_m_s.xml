@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sendSMS">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="38dp"
+            android:text="Make Announcement"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="9dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/smsText"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:fontFamily="sans-serif-medium"
+                android:hint="Enter message..."
+                android:inputType="textMultiLine"
+                android:textAlignment="viewStart"
+                android:typeface="normal" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/sendAnc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textInputLayout"
+            android:layout_centerHorizontal="true"
+            android:text="Select Employee"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>
